@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 {
   int val = atoi(argv[1]);
   if(val > 10)
-    func(11);
+    func(10);
   else
     func(10);
 }
